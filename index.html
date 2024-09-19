@@ -10,62 +10,66 @@
   <header>
     <nav>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" onclick="showSection('about')">About</a></li>
+        <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+        <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+        <li><a href="#" onclick="showSection('experience')">Experience</a></li>
+        <li><a href="#" onclick="showSection('contact')">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="about">
-    <h1>Ritika Dhanda</h1>
-    <p>I am a final-year computer science engineering student at Chandigarh University with experience in data analysis, machine learning, and blockchain development. I am passionate about technology, with strong problem-solving and collaborative team experience. This portfolio highlights my skills, projects, and experience.</p>
-  </section>
+  <main id="main-content">
+    <section id="about" class="hidden">
+      <h1>Ritika Dhanda</h1>
+      <p>I am a final-year computer science engineering student at Chandigarh University with experience in data analysis, machine learning, and blockchain development. I am passionate about technology, with strong problem-solving and collaborative team experience. This portfolio highlights my skills, projects, and experience.</p>
+    </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li><strong>Programming Languages</strong>: Java, Python, OOP's C++</li>
-      <li><strong>Version Control</strong>: Git, GitHub</li>
-      <li><strong>Data Science Tools</strong>: Microsoft Excel, Power BI, Matlab, SQL, MySQL, DBMS</li>
-      <li><strong>Technologies</strong>: Android Studio, Figma</li>
-      <li><strong>Machine Learning & AI</strong>: Deep Learning, Computer Vision, Statistical Modeling</li>
-      <li><strong>Verbal and Written Communication skills </li>
-    </ul>
-  </section>
+    <section id="skills" class="hidden">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Programming Languages</strong>: Java, Python, OOP's C++</li>
+        <li><strong>Version Control</strong>: Git, GitHub</li>
+        <li><strong>Data Science Tools</strong>: Microsoft Excel, Power BI, Matlab, SQL, MySQL, DBMS</li>
+        <li><strong>Technologies</strong>: Android Studio, Figma</li>
+        <li><strong>Machine Learning & AI</strong>: Deep Learning, Computer Vision, Statistical Modeling</li>
+        <li><strong>Verbal and Written Communication skills </strong></li>
+      </ul>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Traffic Sign Detection and Recognition</strong>: Developed a deep learning model for traffic sign detection using computer vision techniques.</li>
-      <li><strong>Solidity Token Creation</strong>: Created smart contracts and decentralized applications (DApps) with Solidity and deployed ERC20 tokens.</li>
-      <li><strong>Diabetes Prediction</strong>: Built a machine learning model using SVM for predicting diabetes in females.</li>
-      <li><strong>Movie Recommendation System</strong>: Implemented a recommendation system for movies based on collaborative filtering.</li>
-      <li><strong>Car Price Sales Prediction</strong>: Developed a machine learning model to predict car prices based on historical sales data.</li>
-      <li><strong>Web Scraping</strong>: Created a web scraping tool to extract data from websites for analysis.</li>
-      <li><strong>Chatbot</strong>: Built an AI-powered chatbot for customer service automation.</li>
-    </ul>
-  </section>
+    <section id="projects" class="hidden">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Traffic Sign Detection and Recognition</strong>: Developed a deep learning model for traffic sign detection using computer vision techniques.</li>
+        <li><strong>Solidity Token Creation</strong>: Created smart contracts and decentralized applications (DApps) with Solidity and deployed ERC20 tokens.</li>
+        <li><strong>Diabetes Prediction</strong>: Built a machine learning model using SVM for predicting diabetes in females.</li>
+        <li><strong>Movie Recommendation System</strong>: Implemented a recommendation system for movies based on collaborative filtering.</li>
+        <li><strong>Car Price Sales Prediction</strong>: Developed a machine learning model to predict car prices based on historical sales data.</li>
+        <li><strong>Web Scraping</strong>: Created a web scraping tool to extract data from websites for analysis.</li>
+        <li><strong>Chatbot</strong>: Built an AI-powered chatbot for customer service automation.</li>
+      </ul>
+    </section>
 
-  <section id="experience">
-    <h2>Experience</h2>
-    <ul>
-      <li><strong>Agnirva Space Internship Program (June - August)</strong>: Completed an 8-week online internship focused on space exploration, research, and delivering research papers on space history and future technologies.</li>
-      <li><strong>Metacrafter Intern (May - September)</strong>: Developed and deployed smart contracts using Solidity, focusing on ERC20 tokens and NFTs. Contributed to blockchain projects and enhanced technical expertise.</li>
-    </ul>
-  </section>
+    <section id="experience" class="hidden">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Agnirva Space Internship Program (June - August)</strong>: Completed an 8-week online internship focused on space exploration, research, and delivering research papers on space history and future technologies.</li>
+        <li><strong>Metacrafter Intern (May - September)</strong>: Developed and deployed smart contracts using Solidity, focusing on ERC20 tokens and NFTs. Contributed to blockchain projects and enhanced technical expertise.</li>
+      </ul>
+    </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:ritikadhanda6@gmail.com">ritikadhanda6@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/ritika-dhanda-784886223" target="_blank">Ritika Dhanda | LinkedIn</a></p>
-    <p>GitHub: <a href="https://github.com/ritika-dhanda" target="_blank">ritika-dhanda</a></p>
-  </section>
+    <section id="contact" class="hidden">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:ritikadhanda6@gmail.com">ritikadhanda6@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/ritika-dhanda-784886223" target="_blank">Ritika Dhanda | LinkedIn</a></p>
+      <p>GitHub: <a href="https://github.com/ritika-dhanda" target="_blank">ritika-dhanda</a></p>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; 2024 Ritika Dhanda. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
